@@ -1,56 +1,25 @@
-# Manufacturing English Coach AI
+# Lear Automotive English Coach 2.1
 
-Responsive PWA for iPhone, Android, Windows and Mac. The visual system follows the supplied reference: navy sidebar on PC, bottom navigation on mobile, white metric cards, blue actions, skill dashboards and manufacturing scenarios.
+## New in this version
+- Voice Coach with ON/OFF, Slow, Normal and Meeting speed.
+- Coach speaks automatically after replies and scenario selection.
+- Replay Coach button.
+- 60 daily meeting phrases with Spanish meaning, filters, audio and Save.
+- Meeting simulator, Knowledge Builder, vocabulary, listening and pronunciation.
 
-## Included
-- Responsive desktop/mobile interface
-- Home dashboard and daily practice
-- AI Coach-style conversation with offline rule-based feedback
-- Meeting simulations for customer, supplier, production, engineering changes, pilot runs and capacity
-- Wiring-harness vocabulary with American-English speech synthesis
-- Listening exercise with four speeds
-- Pronunciation practice using browser speech recognition when available
-- Local progress and profile persistence
-- Offline PWA cache
-- Installable app manifest and icons
-- Optional secure serverless AI endpoint for Vercel
-- Original design-reference image in `assets/design-reference.png`
+## Update GitHub and Vercel
+1. Unzip this package.
+2. Open your existing GitHub repository.
+3. Select Add file > Upload files.
+4. Upload every file and folder inside `lear-automotive-english-coach-v2.1`.
+5. Replace files with the same names.
+6. Commit with `Version 2.1 Voice Coach and Meeting Phrases`.
+7. Vercel deploys automatically. Verify Deployments > Ready.
+8. Open the Vercel URL in Safari and refresh.
+9. If the installed iPhone app remains old, remove it from the Home Screen and add it again from Safari.
 
-## Run on a PC
-1. Install Node.js 20 or later.
-2. Open a terminal inside this folder.
-3. Run `npm install`.
-4. Run `npm start`.
-5. Open `http://localhost:3000`.
+## iPhone audio
+Safari may block automatic speech until the first user interaction. Open AI Coach and tap Replay Coach once. After that, coach responses can play automatically. Confirm the iPhone is not muted and media volume is audible.
 
-A PWA must be served through HTTP/HTTPS. Do not open `index.html` directly if you want offline caching, microphone permissions and installation.
-
-## Install on iPhone
-1. Deploy this folder to an HTTPS host such as Vercel, Netlify or Firebase Hosting.
-2. Open the deployed address in Safari.
-3. Tap Share.
-4. Tap **Add to Home Screen**.
-5. Open English Pro from the Home Screen.
-
-Microphone and speech-recognition support depends on the iOS/Safari version and permission settings. Text input always remains available.
-
-## Deploy to Vercel
-1. Create a new Vercel project from this folder or repository.
-2. Framework preset: `Other`.
-3. No build command is required.
-4. Output directory: `.`
-5. Deploy.
-
-## Optional live AI
-The included app works without an API key using local coaching rules. For a real AI coach:
-1. Add `OPENAI_API_KEY` as a server-side Vercel environment variable.
-2. Optionally add `OPENAI_MODEL`.
-3. Connect the frontend chat to POST `/api/coach` with a `messages` array.
-
-Never place an API key in `app.js`, HTML, a mobile bundle or source control.
-
-## Test
-Run `npm test` for static package checks.
-
-## Data and privacy
-Progress is stored locally in the browser with `localStorage`. No company data is uploaded by the default app. Avoid entering confidential customer, product or production data when enabling an external AI service unless the service is approved by the organization.
+## Privacy
+Knowledge Builder works locally. Remove confidential data, customer-sensitive data, prices, drawings, part numbers and unreleased program information before pasting meeting notes.
