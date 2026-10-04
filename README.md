@@ -1,25 +1,22 @@
-# Lear Automotive English Coach 2.1
+# Lear Automotive English Coach 2.2
 
-## New in this version
-- Voice Coach with ON/OFF, Slow, Normal and Meeting speed.
-- Coach speaks automatically after replies and scenario selection.
-- Replay Coach button.
-- 60 daily meeting phrases with Spanish meaning, filters, audio and Save.
-- Meeting simulator, Knowledge Builder, vocabulary, listening and pronunciation.
+Includes 100 bilingual Project Coordinator phrases, 100 pronunciation exercises, varied topic conversation trees, fixed Meeting-to-Coach transfer, and American English voice preference.
 
-## Update GitHub and Vercel
-1. Unzip this package.
-2. Open your existing GitHub repository.
-3. Select Add file > Upload files.
-4. Upload every file and folder inside `lear-automotive-english-coach-v2.1`.
-5. Replace files with the same names.
-6. Commit with `Version 2.1 Voice Coach and Meeting Phrases`.
-7. Vercel deploys automatically. Verify Deployments > Ready.
-8. Open the Vercel URL in Safari and refresh.
-9. If the installed iPhone app remains old, remove it from the Home Screen and add it again from Safari.
+The app prioritizes commonly available US female voice names such as Samantha, Ava, Allison, Susan, Zira, Jenny and Aria. The operating system controls installed voices, so a specific age or voice cannot be guaranteed. On iPhone, tap Replay once to authorize audio.
 
-## iPhone audio
-Safari may block automatic speech until the first user interaction. Open AI Coach and tap Replay Coach once. After that, coach responses can play automatically. Confirm the iPhone is not muted and media volume is audible.
+Update: upload all files and folders to the existing GitHub repository, replace existing files, and commit `Version 2.2 Rich Conversation and 100 Phrases`. Vercel deploys automatically.
 
-## Privacy
-Knowledge Builder works locally. Remove confidential data, customer-sensitive data, prices, drawings, part numbers and unreleased program information before pasting meeting notes.
+Remove confidential customer information, drawings, part numbers, pricing and unreleased program details before using Knowledge Builder.
+
+
+## Version 2.3 validated memory
+- Every Coach response is saved locally as a practice record: original text, corrected version, professional version, topic and date.
+- Candidate words are extracted only from corrected professional sentences.
+- A word is not added to learning memory until the user selects **Correct use**.
+- Rejected candidates are discarded.
+- New practice sentences are generated from the most recently confirmed words and the current conversation topic.
+- Memory remains local to the browser and device; no company data is uploaded by this feature.
+
+
+## Version 2.4 guided scenario flows
+Ten developed scenarios include context, five progressive questions, a B1 model response, a professional model response and contextual vocabulary. The Coach supports Start, Show model, Next question and Finish scenario. Responses are saved and candidate vocabulary still requires confirmation in Learning Memory.
