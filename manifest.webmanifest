@@ -1,1 +1,1 @@
-{"name":"Automotive English Coach","short_name":"Auto English","start_url":"./index.html","display":"standalone","theme_color":"#0a4779","background_color":"#f1f7fd"}
+{"name":"Automotive English Coach","short_name":"Auto English","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#f3f8fd","theme_color":"#073b70","icons":[{"src":"icon-192.png","sizes":"192x192","type":"image/png"},{"src":"icon-512.png","sizes":"512x512","type":"image/png"}]}
