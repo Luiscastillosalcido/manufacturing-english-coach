@@ -119,3 +119,21 @@ On iPhone, open the Vercel URL in Safari and refresh. If an older PWA remains ca
 
 ## Version 3.8 Technology Command Center
 Compact above-the-fold command-center home for desktop and low-scroll swipeable mobile navigation.
+
+
+## Version 3.9 Zero-Scroll Home
+- Home now locks to the viewport on Desktop and Mobile.
+- The hero, mission, quick-access dock, and condensed skill progress fit on a single screen.
+- Breakpoints compact the dashboard further on shorter laptop displays.
+- Mobile uses one fixed app screen with a horizontal module dock and no vertical Home scrolling.
+- Other modules keep normal scrolling where lists and tables require it.
+
+
+## Version 4.0 Mobile Experience
+- Adds a full mobile navigation drawer with access to every module.
+- Rebuilds the bottom navigation with five compact, readable destinations.
+- Prevents horizontal clipping and overlapping cards.
+- Practice skill cards use a two-column mobile grid instead of a cut-off carousel.
+- Exercise controls no longer overlap the bottom navigation.
+- Non-Home screens restore normal vertical scrolling while Home remains compact.
+- Safe-area support improves installed-app behavior on phones.
