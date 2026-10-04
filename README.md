@@ -1,3 +1,2 @@
-# Automotive English Coach 3.7 Restored Dual
-
-Restores the rich desktop application while retaining Desktop, Mobile, and Auto layouts. Audio is restored across Grammar, Phrases, Connectors, Vocabulary, Listening, Pronunciation, and AI Coach. Voice profiles and speed controls are included. Progress and evaluation remain local and evidence-based.
+# Automotive English Coach 3.8 Comprehensive
+Reconstructed from the complete 3.5 functional specification and later requested enhancements. Includes 100 phrases with three tenses, 100 connectors with 1,500 examples, 200 manufacturing terms, 200 grammar positions, phrase and connector practice, C2 coach, meeting simulator, listening, pronunciation, audio speeds, voice profiles, progress/evaluation, and Desktop/Mobile/Auto layouts.
