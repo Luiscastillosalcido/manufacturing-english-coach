@@ -33,3 +33,36 @@ On iPhone, open the Vercel URL in Safari and refresh. If an older PWA remains ca
 - Global Meeting: randomly alternates among installed English voices.
 - Voice profile and speed can be selected in Profile and in AI Coach.
 - The exact voice depends on voices installed by iOS, Windows, Android, and the browser.
+
+
+## Version 2.9 explicit tenses
+- Corrected awkward fallback phrases such as “Previously, the team reported that please review...”.
+- Expanded past and future conversion rules for approvals, releases, completion, implementation, requirements, expectations, and modal impacts.
+- If a phrase cannot be safely transformed word-for-word, the app uses a grammatically complete reporting frame instead of pretending the original clause changed tense.
+
+
+## Version 3.0 Business Connectors
+- New 100 Business Connectors module.
+- Ten functional categories: addition, contrast, cause, result, sequence, condition, examples, emphasis, comparison, and conclusion.
+- Every connector contains five short automotive-business examples in present, past, and future.
+- Total: 1,500 connector example sentences, with connector audio and full-sentence audio.
+
+
+## Version 3.0 Business Connectors
+- New 100 Business Connectors module.
+- Ten functional categories: addition, contrast, cause, result, sequence, condition, examples, emphasis, comparison, and conclusion.
+- Every connector contains five short automotive-business examples in present, past, and future.
+- Total: 1,500 connector example sentences, with connector audio and full-sentence audio.
+
+
+## Version 3.0 Business Connectors
+- New 100 Business Connectors module.
+- Ten functional categories: addition, contrast, cause, result, sequence, condition, examples, emphasis, comparison, and conclusion.
+- Every connector contains five short automotive-business examples in present, past, and future.
+- Total: 1,500 connector example sentences, with connector audio and full-sentence audio.
+
+
+## Version 3.1 Grammar Essentials
+- Pronoun table includes action present, action past, action future, To Be present, To Be past, and To Be future.
+- Seven pronouns have automotive examples in present, past, and future with Spanish translations and audio.
+- Twenty automotive fill-in exercises practice am, is, are, was, were, and will be.
