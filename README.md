@@ -87,3 +87,13 @@ On iPhone, open the Vercel URL in Safari and refresh. If an older PWA remains ca
 - Added large, always-visible Practice Examples and Connectors Glossary buttons.
 - Glossary uses a vertical table with connector, Spanish meaning, English example, Spanish example, and audio.
 - Expanded Grammar Essentials from 20 to 200 exercises across five levels.
+
+
+## Version 3.5 Enhanced Practice and Mobile
+- Preserves the complete stable V3.4 baseline.
+- Adds a Practice Center with 200 Phrase, 200 Connector, 200 Listening, and 200 Pronunciation exercises.
+- Retains 200 Grammar exercises, 100 connector glossary entries, 1,500 connector examples, and 200 manufacturing vocabulary terms.
+- Adds Previous, Next, and Return to Exercise 1 controls.
+- Incorrect answers are pink; correct answers are green.
+- Adds Evaluation with completion, attempts, correct answers, and evidence-based accuracy.
+- Adds Desktop, Mobile, and Auto layouts without removing audio or existing modules.
