@@ -72,3 +72,11 @@ On iPhone, open the Vercel URL in Safari and refresh. If an older PWA remains ca
 - Project Coordinator phrase Spanish text now changes with present, past, and future tabs.
 - Business Connectors includes an internal Spanish Guide tab.
 - The guide shows connector, Spanish meaning, one English example, and its Spanish translation in the selected tense.
+
+
+## Version 3.3 C2 Professional Coach
+- Added fifteen executive automotive challenge questions, including cause, ownership, evidence, pilot-run risk, and terminal-shortage backup plans.
+- Added B2, C1, and C2 difficulty modes. C2 is the highest official CEFR level; C3 is not an official CEFR level.
+- Added a prominent Connectors Glossary button inside 100 Business Connectors.
+- Glossary displays connector, Spanish meaning, one English example, and tense-aligned Spanish translation in a vertical table-like list.
+- Continued Spanish tense alignment for Project Coordinator phrases.
