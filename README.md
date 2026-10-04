@@ -97,3 +97,13 @@ On iPhone, open the Vercel URL in Safari and refresh. If an older PWA remains ca
 - Incorrect answers are pink; correct answers are green.
 - Adds Evaluation with completion, attempts, correct answers, and evidence-based accuracy.
 - Adds Desktop, Mobile, and Auto layouts without removing audio or existing modules.
+
+
+## Version 3.6 Streamlined 500
+- AI Coach and Meeting Simulator are now two tabs in one module.
+- Grammar opens with its 200 exercises first; the pronoun reference is collapsible below.
+- Knowledge Builder, Validated Memory, standalone Listening, standalone Pronunciation, and standalone Meetings were removed from navigation.
+- Listening and pronunciation remain in the 800 Interactive Exercises Practice Center.
+- Vocabulary expanded from 200 to 500 automotive, wire harness, and maquiladora terms.
+- Home redesigned as a professional dashboard with learning focus, progress, and quick access.
+- Desktop, Mobile, and Auto layouts remain available.
