@@ -87,3 +87,12 @@ On iPhone, open the Vercel URL in Safari and refresh. If an older PWA remains ca
 - Added large, always-visible Practice Examples and Connectors Glossary buttons.
 - Glossary uses a vertical table with connector, Spanish meaning, English example, Spanish example, and audio.
 - Expanded Grammar Essentials from 20 to 200 exercises across five levels.
+
+
+## Version 3.5 Integrated Practice
+- Meeting Simulator moved inside AI Coach as a tab; standalone Meetings removed from the sidebar.
+- AI Coach tabs: Conversation, Meeting Simulator, Listening Challenge, Executive Challenge.
+- 200 Phrase Exercises added to 100 Project Coordinator Phrases.
+- 200 Connector Exercises added above the connector glossary/practice content.
+- Grammar exercises moved to the top and reference table moved into a collapsible section.
+- Incorrect answers use pink feedback; correct answers use green feedback.
