@@ -146,3 +146,10 @@ Compact above-the-fold command-center home for desktop and low-scroll swipeable 
 - Structured feedback displays understood meaning, clear version, professional version, concise corrections, and suggested vocabulary.
 - The original tree-based Coach remains available as an offline fallback.
 - Configure Azure OpenAI variables in Vercel; never put the API key in app.js.
+
+
+## Version 4.2 Dynamic English Agent
+- Fixes the AI dispatch path so Send calls the cloud Coach first and never accidentally bypasses it.
+- Replaces fixed-tree fallback with a Local Dynamic Coach that analyzes greetings, requests, presentations, costs, ECNs, delays, quality, capacity, suppliers, and topic changes.
+- Every local response creates feedback and a related question from the user’s actual words.
+- Cloud AI remains the full semantic agent; Local Dynamic is a useful no-configuration fallback, not a fixed questionnaire.
