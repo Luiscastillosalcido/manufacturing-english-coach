@@ -1,10 +1,3 @@
-# Automotive English Coach 3.6.2 Dual Layout
+# Automotive English Coach 3.7 Restored Dual
 
-This build contains both layouts in one application:
-- Desktop: full left sidebar and multi-column workspace.
-- Mobile: compact single-column layout and bottom navigation.
-- Auto: desktop or mobile selected by screen width.
-
-The three layout buttons are always visible at the top. The selected mode is stored locally.
-
-Upload every file directly to the GitHub repository root. Commit: `Version 3.6.2 Dual Desktop Mobile Layout`.
+Restores the rich desktop application while retaining Desktop, Mobile, and Auto layouts. Audio is restored across Grammar, Phrases, Connectors, Vocabulary, Listening, Pronunciation, and AI Coach. Voice profiles and speed controls are included. Progress and evaluation remain local and evidence-based.
