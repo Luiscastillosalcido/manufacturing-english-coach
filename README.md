@@ -107,3 +107,11 @@ On iPhone, open the Vercel URL in Safari and refresh. If an older PWA remains ca
 - Vocabulary expanded from 200 to 500 automotive, wire harness, and maquiladora terms.
 - Home redesigned as a professional dashboard with learning focus, progress, and quick access.
 - Desktop, Mobile, and Auto layouts remain available.
+
+
+## Version 3.7 Pro Experience
+- Rebuilt the visual system for a more premium, innovative, technology-focused product experience.
+- Practice Center is now a focused Learning Studio with four launch cards and a compact exercise cockpit.
+- Desktop uses a wider professional dashboard, stronger hierarchy, premium navigation, and polished cards.
+- Mobile uses horizontal swipeable skill cards, sticky exercise controls, and app-like bottom navigation to reduce scrolling.
+- All existing exercises, audio, vocabulary, coach, meetings, progress, and layouts are preserved.
