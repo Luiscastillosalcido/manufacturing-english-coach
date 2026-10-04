@@ -115,3 +115,7 @@ On iPhone, open the Vercel URL in Safari and refresh. If an older PWA remains ca
 - Desktop uses a wider professional dashboard, stronger hierarchy, premium navigation, and polished cards.
 - Mobile uses horizontal swipeable skill cards, sticky exercise controls, and app-like bottom navigation to reduce scrolling.
 - All existing exercises, audio, vocabulary, coach, meetings, progress, and layouts are preserved.
+
+
+## Version 3.8 Technology Command Center
+Compact above-the-fold command-center home for desktop and low-scroll swipeable mobile navigation.
