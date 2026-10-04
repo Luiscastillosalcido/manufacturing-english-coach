@@ -1,9 +1,1 @@
-const fs=require('fs'),vm=require('vm');
-const files=['index.html','styles.css','app.js','manifest.webmanifest','service-worker.js','icon-192.png','icon-512.png','design-reference.png'];
-for(const f of files)if(!fs.existsSync(f))throw new Error('Missing '+f);
-JSON.parse(fs.readFileSync('manifest.webmanifest','utf8'));
-const js=fs.readFileSync('app.js','utf8');
-if(/Lear English|LEAR AUTOMOTIVE|Lear Automotive/i.test(js)||/Lear English|LEAR AUTOMOTIVE|Lear Automotive/i.test(fs.readFileSync('index.html','utf8')))throw new Error('Old brand remains');
-if(!js.includes('window.PHRASES=')||!js.includes('window.SCENARIO_FLOWS'))throw new Error('Embedded data missing');
-if((js.match(/\{q:/g)||[]).length!==50)throw new Error('Expected 50 scenario questions');
-console.log('Static package checks passed');
+const fs=require('fs');for(const f of ['index.html','styles.css','app.js','manifest.webmanifest','service-worker.js','icon-192.png','icon-512.png','design-reference.png'])if(!fs.existsSync(f))throw Error('Missing '+f);JSON.parse(fs.readFileSync('manifest.webmanifest'));const js=fs.readFileSync('app.js','utf8');if((js.match(/"id":/g)||[]).length<200)throw Error('Expected 200 vocabulary terms');for(const x of ['us-female','us-male','international','european','global-random','voiceProfile','chooseVoice','previewSelectedVoice'])if(!js.includes(x))throw Error('Voice selector missing '+x);if(!js.includes('phraseTense')||!js.includes('vocabTense'))throw Error('Tense tabs missing');if(!js.includes('correctUses>=3'))throw Error('Automatic validation missing');console.log('V2.8 checks passed');

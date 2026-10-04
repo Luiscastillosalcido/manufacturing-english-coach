@@ -9,3 +9,27 @@ Upload every file from this folder directly to the repository root and replace e
 The package includes static syntax checks, a local HTTP smoke test, 100 bilingual phrases, 10 guided scenarios with 50 questions, validated learning memory, voice coach, pronunciation library, meeting flow, and an on-screen diagnostic if JavaScript fails.
 
 On iPhone, open the Vercel URL in Safari and refresh. If an older PWA remains cached, remove the Home Screen app and add it again.
+
+
+## Version 2.6 Wire Harness Vocabulary
+- 28 core terms use 28 different automotive scenarios.
+- Every card includes English, Spanish, scenario category, term audio and complete-sentence audio.
+- Search, scenario filtering and audio speed are included.
+
+
+## Version 2.7 Complete language system
+- 100 Project Coordinator phrases include Present, Past and Future tabs.
+- 200 manufacturing terms are organized in ten categories.
+- Each term includes present, past and future scenario sentences plus term and sentence audio.
+- Validated Memory is automatic: exact technical term match, corrected professional sentence, minimum sentence length, controlled correction distance, and three correct contextual uses.
+- Manual Correct/Reject buttons were removed.
+
+
+## Version 2.8 Voice Selector
+- Avery: preferred US English clear higher-pitched system voice.
+- Michael: preferred US English professional lower-pitched system voice.
+- Kai: international English voice profile for supplier and engineering practice.
+- Daniel: UK or Irish English business voice.
+- Global Meeting: randomly alternates among installed English voices.
+- Voice profile and speed can be selected in Profile and in AI Coach.
+- The exact voice depends on voices installed by iOS, Windows, Android, and the browser.
