@@ -137,3 +137,12 @@ Compact above-the-fold command-center home for desktop and low-scroll swipeable 
 - Exercise controls no longer overlap the bottom navigation.
 - Non-Home screens restore normal vertical scrolling while Home remains compact.
 - Safe-area support improves installed-app behavior on phones.
+
+
+## Version 4.1 AI Coach Connected
+- Frontend sends the last 16 conversation messages, selected mode, topic, difficulty, profile, scenario, and confirmed vocabulary to `/api/coach`.
+- Dynamic AI questions replace fixed trees when the API is configured.
+- Four modes: Natural Conversation, Professional Coach, Meeting Simulator, and Only Conversation.
+- Structured feedback displays understood meaning, clear version, professional version, concise corrections, and suggested vocabulary.
+- The original tree-based Coach remains available as an offline fallback.
+- Configure Azure OpenAI variables in Vercel; never put the API key in app.js.
