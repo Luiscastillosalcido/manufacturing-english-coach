@@ -80,3 +80,10 @@ On iPhone, open the Vercel URL in Safari and refresh. If an older PWA remains ca
 - Added a prominent Connectors Glossary button inside 100 Business Connectors.
 - Glossary displays connector, Spanish meaning, one English example, and tense-aligned Spanish translation in a vertical table-like list.
 - Continued Spanish tense alignment for Project Coordinator phrases.
+
+
+## Version 3.4 Visible Glossary and 200 Exercises
+- Fixed duplicate connector view definitions that caused the browser to render the old view.
+- Added large, always-visible Practice Examples and Connectors Glossary buttons.
+- Glossary uses a vertical table with connector, Spanish meaning, English example, Spanish example, and audio.
+- Expanded Grammar Essentials from 20 to 200 exercises across five levels.
