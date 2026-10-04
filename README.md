@@ -66,3 +66,9 @@ On iPhone, open the Vercel URL in Safari and refresh. If an older PWA remains ca
 - Pronoun table includes action present, action past, action future, To Be present, To Be past, and To Be future.
 - Seven pronouns have automotive examples in present, past, and future with Spanish translations and audio.
 - Twenty automotive fill-in exercises practice am, is, are, was, were, and will be.
+
+
+## Version 3.2 bilingual tense alignment
+- Project Coordinator phrase Spanish text now changes with present, past, and future tabs.
+- Business Connectors includes an internal Spanish Guide tab.
+- The guide shows connector, Spanish meaning, one English example, and its Spanish translation in the selected tense.
