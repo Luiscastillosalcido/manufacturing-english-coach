@@ -29,3 +29,10 @@ Upload every file and folder in this package to the repository root and replace 
 - Splits long sentences into safe speech chunks.
 - Adds pause/resume keepalive for Chromium speech synthesis.
 - Shows the selected system voice after Enable Audio.
+
+
+## V5.3.2 Local Voice Fallback
+- Avoids Microsoft Online/Natural Preview voices that may appear installed but fail in browser speech synthesis.
+- Prefers localService English voices.
+- Retries with another compatible English voice and finally the browser default voice.
+- Shows a clear Windows voice installation message only after all fallbacks fail.
