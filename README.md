@@ -20,3 +20,12 @@ Upload every file and folder in this package to the repository root and replace 
 - Uses the supplied Automotive English Coach manifest values and LAE icons.
 - Loads phrases, scenarios, trees and Topic Expert data before app.js.
 - Preserves the complete evidence-based AI English Coach instruction set in lib/coach-instructions.js.
+
+
+## V5.3.1 Audio Stabilization
+- Explicitly unlocks browser audio from a user gesture.
+- Uses a silent Web Audio unlock for Chrome, Edge, Safari and installed PWA behavior.
+- Reloads and selects installed English voices with browser-default fallback.
+- Splits long sentences into safe speech chunks.
+- Adds pause/resume keepalive for Chromium speech synthesis.
+- Shows the selected system voice after Enable Audio.
