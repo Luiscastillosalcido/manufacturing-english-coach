@@ -51,3 +51,12 @@ Upload every file and folder in this package to the repository root and replace 
 - Keeps accumulating final and interim transcripts for as long as the pointer remains pressed.
 - Submits only after pointer release, keyboard release, cancel, or window focus loss.
 - Treats no-speech, aborted, and transient network events as recoverable while held.
+
+
+## V5.5 Recorded Audio Review
+- Replaces fragile browser live recognition with MediaRecorder hold-to-record.
+- Keeps recording for the entire time the button is held.
+- Sends the audio blob only after release.
+- Adds `/api/transcribe` for Azure OpenAI transcription models.
+- Requires `AZURE_OPENAI_TRANSCRIPTION_DEPLOYMENT` in Vercel for cloud review.
+- Falls back to browser recognition if cloud transcription is not configured.
