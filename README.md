@@ -36,3 +36,11 @@ Upload every file and folder in this package to the repository root and replace 
 - Prefers localService English voices.
 - Retries with another compatible English voice and finally the browser default voice.
 - Shows a clear Windows voice installation message only after all fallbacks fail.
+
+
+## V5.4 Push-to-Talk Speaking Practice
+- Hold the speaking button while talking.
+- Release the button to stop recognition and submit the transcript for review.
+- Supports mouse, touch, pointer and keyboard Space/Enter.
+- Shows recording, live recognized text and reviewing states.
+- Preserves pronunciation evidence and word-match scoring.
