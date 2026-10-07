@@ -44,3 +44,10 @@ Upload every file and folder in this package to the repository root and replace 
 - Supports mouse, touch, pointer and keyboard Space/Enter.
 - Shows recording, live recognized text and reviewing states.
 - Preserves pronunciation evidence and word-match scoring.
+
+
+## V5.4.1 Hold-to-Talk continuity
+- Automatically restarts browser speech recognition when Edge/Chrome ends a recognition session after brief silence.
+- Keeps accumulating final and interim transcripts for as long as the pointer remains pressed.
+- Submits only after pointer release, keyboard release, cancel, or window focus loss.
+- Treats no-speech, aborted, and transient network events as recoverable while held.
